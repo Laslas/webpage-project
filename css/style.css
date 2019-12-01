@@ -49,8 +49,177 @@ table {
 
 /* End of settings*/
 
+
+
 .container {
   margin: 0 auto;
-  width: fit-content;
+  padding: 0 10%;
+  max-width: 1920px;
+       
+  }
+
+  body {
+    position: relative;
+    font-size: 100%;
+  }
+
+/*hero styling*/
+
+.hero {
+  background-color: #414141;  
+  width: 100%;
+  position: absolute;
+  min-width: 1192px;
+  border-bottom: 10px solid transparent;
+  border-image: url(/images/Border-BG.jpg) 30 repeat;
+    
 }
 
+.hero__box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.hero__upper {
+  display: flex;
+  justify-content: flex-start;
+  height: 80%;
+}
+
+.hero-image {
+  height: 80%;
+  width: 55%;  
+}
+
+.hero-img {
+  width: 70%;
+  height: 80%;  
+}
+.hero-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  height: 80%;
+  align-self: center;
+ }
+.hero-caption {
+  color: #fff;  
+  font-size: 1.3vw;
+  line-height: 95%;
+  font-weight: bold;
+  font-style: italic;
+  width: 70%;
+  padding-bottom: 2%;
+    }
+
+ .hero-span {
+  color: #b5b5b5;
+  font-weight: normal;
+  font-style: normal;
+  }
+
+.hero-para {
+  font-size: 1vw;
+  color: #b5b5b5;
+  padding-bottom: 5%;
+}
+
+
+.hero-btn {
+  width: 25%;
+  padding: 2% 2%;
+  border: none;
+  background-color: #4788C8;
+}
+
+
+.hero-btn a {
+  font-size: 0.9vw;
+  color: #fff;
+}
+
+.hero__banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4788C8;
+  padding: 0.9% 0.9%;  
+}
+
+.hero__banner::after { 
+   content: ""; 
+   position: absolute;
+    width: 0;
+    height: 0;
+    top: 100%;
+    border-top: 43px solid #4788C8;
+    border-right: 76px solid transparent;
+    margin-left: -0.9%;
+    
+    
+}
+
+.banner-caption {
+  color: #fff;
+  font-size: 1.2vw;
+  padding-left: 2%;
+  width: 60%; 
+  top: 160px;
+}
+
+.banner-span {
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+.banner-btn {  
+  background-color: #e4e4ee;
+  margin-right: 2%;
+  width: 12%;
+  padding: 0.8% 0.9%;
+  border: none;
+}
+
+.banner-btn a {
+  color: #414141;
+  font-size: 0.9vw;
+}
+
+
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+  body {
+   font-size: 100%;
+  }
+
+  .container {
+    padding: 0px;
+  }
+
+ .hero__upper {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+
+ }
+ .hero-image {
+   width: 100%;
+ }
+
+ .hero-message {
+      display: flex;
+   flex-direction: column;
+   width: 100%;
+   text-align: center;
+ }
+}
