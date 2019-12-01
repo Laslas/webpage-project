@@ -192,19 +192,24 @@ table {
   justify-content: space-around;
   padding: 5% 3%;
   text-align: center;
-  position: relative;
+  
   border-bottom: 10px solid transparent;
   border-image: url(/images/Border-BG.jpg) 30 repeat; 
 }
 
+.panel-container{
+  position: relative;
+}
+
 .panel-container::after{
   content: "Recent work";
-  display: inline-block;
+  margin-left: 45%;
+  position: absolute;
   color: #3f3f3f;
   background-color: #efefef;
-  top: 25%;
-  padding: 0.1% 1%;
-  font-size: 1.2vw;
+  top: 95%;
+  padding: 0.1% 2%;
+  font-size: 1.29vw;
   
 }
 .panel-content {
