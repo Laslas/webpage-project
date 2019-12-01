@@ -68,11 +68,9 @@ table {
 .hero {
   background-color: #414141;  
   width: 100%;
-  position: absolute;
   min-width: 1192px;
   border-bottom: 10px solid transparent;
-  border-image: url(/images/Border-BG.jpg) 30 repeat;
-    
+  border-image: url(/images/Border-BG.jpg) 30 repeat;  
 }
 
 .hero__box {
@@ -189,9 +187,80 @@ table {
   font-size: 0.9vw;
 }
 
+.panel-holder {
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 3%;
+  text-align: center;
+  position: relative;
+  border-bottom: 10px solid transparent;
+  border-image: url(/images/Border-BG.jpg) 30 repeat; 
+}
+
+.panel-container::after{
+  content: "Recent work";
+  display: inline-block;
+  color: #3f3f3f;
+  background-color: #efefef;
+  top: 25%;
+  padding: 0.1% 1%;
+  font-size: 1.2vw;
+  
+}
+.panel-content {
+  padding: 1%;
+}
 
 
+.panel-icon {
+  background-color: #4f4d4e;
+  height: 5vh;
+  width: 3vw;
+  border-radius: 50%;
+  margin: 0 auto;  
+}
 
+.fas {
+  margin-top: 29%;
+}
+
+i {
+  margin: 15%;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.panel-caption {
+  padding: 1vh;
+  font-size: 1vw;
+  font-weight: bold;
+  color: #4f4d4e;
+}
+
+.panel-span {
+  font-weight: normal;
+}
+
+.panel-para {
+  width: 18vw;
+  font-size: 0.9vw;
+  line-height: 2vh;
+  padding: 2vh;
+}
+
+.panel-btn {
+  width: 45%;
+  height: 20%;
+  border-radius: 12%;
+  padding: 3%;
+  background-color: #4788C8;
+   
+}
+
+.panel-btn a {
+  color: #fff;
+  font-size: 0.9vw;
+}
 
 
 /* media queries */
