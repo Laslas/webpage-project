@@ -192,7 +192,7 @@ table {
   justify-content: space-around;
   padding: 5% 3%;
   text-align: center;
-  
+  width: 100%;
   border-bottom: 10px solid transparent;
   border-image: url(/images/Border-BG.jpg) 30 repeat; 
 }
@@ -203,7 +203,7 @@ table {
 
 .panel-container::after{
   content: "Recent work";
-  margin-left: 45%;
+  margin: 0 36%;
   position: absolute;
   color: #3f3f3f;
   background-color: #efefef;
@@ -214,6 +214,7 @@ table {
 }
 .panel-content {
   padding: 1%;
+  width: 22.5%;
 }
 
 
