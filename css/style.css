@@ -152,8 +152,8 @@ table {
     width: 0;
     height: 0;
     top: 100%;
-    border-top: 43px solid #4788C8;
-    border-right: 76px solid transparent;
+    border-top: 2.6vw solid #4788C8;
+    border-right: 4.75vh solid transparent;
     margin-left: -0.9%;
     z-index: 1;
     
@@ -185,6 +185,8 @@ table {
   color: #414141;
   font-size: 0.9vw;
 }
+
+/*four panels section*/
 
 .four__panels {
   width: 100%;
@@ -333,7 +335,7 @@ i {
   width: 32.5%;
   background-color: #fff;
   position: relative;
-  padding-bottom: 4%;
+  padding-bottom: 3%;
   box-shadow: 5px 1px 5px -1px rgba(0,0,0,.19);
 }
 
@@ -350,7 +352,7 @@ i {
 }
 
 .recent__works-image-holder {
-  height: 80%;
+  height: 70%;
 }
 
 .recent__works-img {
@@ -359,18 +361,95 @@ i {
 }
 
 .recent__works-content {
-  padding: 0 2% 5%;
+  padding:2%;
 }
 
 .recent__works-caption {
-  margin: 0% 1% 2%;
+  margin-left: 5%;
   font-size: 1.2vw;
+  font-weight: bold;
 }
 
 .recent__work-para {
   width: 100%;
   font-size: 0.9vw;
-  
+  padding: 3% 0;
+}
+
+/*..accolades section...*/
+.accolades {
+  width: 100%;
+  background-color: #efefef;
+}
+
+.accolades__holder {
+  padding: 5% 3%;
+  display: flex;
+  width: 100%;
+}
+
+.testimonial-panel {
+  border-top: 10px solid transparent;
+  border-image: url(/images/Border-BG.jpg) 30 repeat;
+  width: 60%; 
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.testimonial-panel::before {
+  content: "Testimonials";  
+  position: absolute;
+  color: #3f3f3f;
+  background-color: #efefef;  
+  padding: 0.1% 2%;
+  font-size: 1.29vw;
+  top: -5%;
+  margin: 0 40%;
+}
+
+.testimonial-upper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial-bottom  {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.testimonials {
+  width: 47%;
+  padding: 3%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin: 3% 0;
+  position: relative;
+}
+
+.testimonials::after {
+  content: ""; 
+   position: absolute;
+    width: 0;
+    height: 0;
+    top: 100%;
+    border-top: 27px solid #fff;
+    border-right: 40px solid transparent;
+    left: 0%;
+    z-index: 1;
+}
+
+.testimonial-caption {
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+
+.testimonial-para {
+  width: 100%;
+  font-size: 0.9vw;
 }
 
 /* media queries */
