@@ -67,8 +67,7 @@ table {
 
 .hero {
   background-color: #414141;  
-  width: 100%;
-  min-width: 1192px;
+  width: 100%;  
   border-bottom: 10px solid transparent;
   border-image: url(/images/Border-BG.jpg) 30 repeat;  
 }
@@ -156,7 +155,7 @@ table {
     border-top: 43px solid #4788C8;
     border-right: 76px solid transparent;
     margin-left: -0.9%;
-    
+    z-index: 1;
     
 }
 
@@ -187,6 +186,10 @@ table {
   font-size: 0.9vw;
 }
 
+.four__panels {
+  width: 100%;
+  background-color: #efefef;
+}
 .panel-holder {
   display: flex;
   justify-content: space-around;
@@ -198,8 +201,9 @@ table {
 }
 
 .panel-container{
-  position: relative;
-}
+  position: relative; 
+  width: 100%; 
+ }
 
 .panel-container::after{
   content: "Recent work";
@@ -217,14 +221,58 @@ table {
   width: 22.5%;
 }
 
+.panel-holder-1 {
+  border: none;
+}
+
+.panel-content:hover  {  
+  background-color: #fff;
+  width: 24%;
+  height: 70%;
+  padding: 1%;
+  position: relative;
+  box-shadow: 5px 1px 5px -1px rgba(0,0,0,.19);   
+}
+
+.panel-content:hover > .panel-icon {
+  background-color: #4788C8;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.panel-content:hover > .panel-icon > i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.panel-content:hover > .panel-btn {
+  display: none;
+}
+
+.panel-content:hover::after {
+  content: ""; 
+   position: absolute;
+    width: 0;
+    height: 0;
+    top: 100%;
+    border-top: 27px solid #fff;
+    border-right: 40px solid transparent;
+    left: 0%;
+    z-index: 1;
+}
+
 
 .panel-icon {
   background-color: #4f4d4e;
-  height: 5vh;
-  width: 3vw;
+  height: 45px;
+  width: 45px;
   border-radius: 50%;
   margin: 0 auto;  
 }
+
+
 
 .fas {
   margin-top: 29%;
@@ -235,6 +283,8 @@ i {
   border-radius: 50%;
   color: #fff;
 }
+
+
 
 .panel-caption {
   padding: 1vh;
