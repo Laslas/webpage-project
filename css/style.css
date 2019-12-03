@@ -200,7 +200,7 @@ table {
   text-align: center;
   width: 100%;
   border-bottom: 10px solid transparent;
-  border-image: url('/images/Border-BG.jpg') 30 repeat; 
+  border-image: url('../images/Border-BG.jpg') 30 repeat; 
 }
 
 .panel-container{
