@@ -69,7 +69,7 @@ table {
   background-color: #414141;  
   width: 100%;  
   border-bottom: 10px solid transparent;
-  border-image: url(../images/Border-BG.jpg) 30 repeat;  
+  border-image: url('../images/Border-BG.jpg') 30 repeat;  
 }
 
 .hero__box {
@@ -200,7 +200,7 @@ table {
   text-align: center;
   width: 100%;
   border-bottom: 10px solid transparent;
-  border-image: url(/images/Border-BG.jpg) 30 repeat; 
+  border-image: url('/images/Border-BG.jpg') 30 repeat; 
 }
 
 .panel-container{
@@ -392,7 +392,7 @@ i {
 
 .testimonial-panel {
   border-top: 10px solid transparent;
-  border-image: url(/images/Border-BG.jpg) 30 repeat;
+  border-image: url('../images/Border-BG.jpg') 30 repeat;
   width: 65%; 
   display: flex;
   flex-direction: column;
@@ -457,7 +457,7 @@ i {
 
 .development {
   border-top: 10px solid transparent;
-  border-image: url(/images/Border-BG.jpg) 30 repeat;
+  border-image: url('../images/Border-BG.jpg') 30 repeat;
   width: 33%;
   position: relative;
 }
