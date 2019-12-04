@@ -104,13 +104,12 @@ table {
  }
 .hero-caption {
   color: #fff;  
-  font-size: 1.3vw;
-  line-height: 95%;
+  font-size: 1.3vw;  
   font-weight: bold;
   font-style: italic;
   width: 70%;
   padding-bottom: 2%;
-    }
+}
 
  .hero-span {
   color: #b5b5b5;
@@ -305,17 +304,14 @@ i {
 }
 
 .panel-btn {
-  width: 45%;
-  height: 20%;
   border-radius: 12%;
-  padding: 3%;
-  background-color: #4788C8;
-   
+  padding: 4%;
+  background-color: #4788C8;  
 }
 
-.panel-btn a {
-  color: #fff;
+button.panel-btn a {
   font-size: 0.9vw;
+  color: #fff;
 }
 
 .recent__works {
@@ -534,12 +530,9 @@ i {
 }
 
 .tabcontent-btn {
-  width: 25%;
-  height: 8%;
   border-radius: 12%;
-  padding: 1%;
+  padding: 2.5%;
   background-color: #4788C8;
-  margin-top: 5%;
   float: right;
 }
 
