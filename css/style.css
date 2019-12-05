@@ -3,8 +3,7 @@
 html {
   width: 100%;
   height: 100%;
-  font-size: 16px;
-}
+  }
 body {
   width: 100%;
   height: 100%;
@@ -58,10 +57,7 @@ table {
   max-width: 1920px;       
   }
 
-  body {
-    position: relative;
-    font-size: 100%;
-  }
+ 
 
 /*hero styling*/
 
@@ -202,10 +198,10 @@ table {
   border-image: url('../images/Border-BG.jpg') 30 repeat; 
 }
 
+
 .panel-container{
-  position: relative; 
-  width: 100%; 
- }
+  position: relative;   
+ } 
 
 .panel-container::after{
   content: "Recent work";
@@ -296,7 +292,6 @@ i {
 }
 
 .panel-para {
-  width: 18vw;
   font-size: 0.9vw;
   line-height: 2vh;
   padding: 2vh;
@@ -469,7 +464,7 @@ button.panel-btn a {
 /*tab section*/
 
 .dev-content {
-  padding: 3% 2%;
+  padding: 5.5% 2% 4%;
   margin-top: 1.5%;
   height: 100%;
 }
@@ -503,7 +498,7 @@ button.panel-btn a {
   bottom: 0;
   padding: 1% 3% 0 0;
   box-shadow: 5px 1px 5px -1px rgba(0,0,0,.19);
-  height: 95%;
+  height: 99%;
   margin-left: 0.3%;
 }
 [type=radio]:checked ~ label {
@@ -636,6 +631,9 @@ button.panel-btn a {
   align-content: flex-start; 
 }
 
+.phantom {
+  display: none;
+}
 .upper-footer-flickr-li {
   background-color: #222222;
   width: 22%;
@@ -685,20 +683,6 @@ i-2:hover {
 }
 
 
-.fa-twitter:hover::after {
-  content: "Twitter"; 
-  font-size: 0.9vw;
-  color: #fff;
-  text-align: center;
-   position: absolute;
-    width: 50%;
-    height: 80%;
-    top: -70%;
-    padding: 5%;
-    background-color: #414141;
-    left: 20%;
-    z-index: 1;
-} 
 
 
 
@@ -714,32 +698,3 @@ i-2:hover {
 
 
 
-/* media queries */
-
-@media (max-width: 800px) {
-  body {
-   font-size: 100%;
-  }
-
-  .container {
-    padding: 0px;
-  }
-
- .hero__upper {
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-start;
-
- }
- .hero-image {
-   width: 100%;
- }
-
- .hero-message {
-      display: flex;
-   flex-direction: column;
-   width: 100%;
-   text-align: center;
- }
-}
