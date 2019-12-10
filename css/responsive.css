@@ -2,6 +2,11 @@
 
 @media (max-width: 800px) {
 
+  *:hover {
+    height: 0;
+    width: 0;
+  }
+
 
   .hero__upper {
     display: flex;
